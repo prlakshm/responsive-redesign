@@ -42,6 +42,7 @@ h2 {
 }
 p {
     margin-bottom: 1rem;
+    width: 60vw;
 }
 img {
     max-width: 100%;
