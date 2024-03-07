@@ -43,6 +43,23 @@ h2 {
 p {
     margin-bottom: 1rem;
     width: 60vw;
+    align-items: center;
+    text-align: center; /* Center align text */
+    font-size: 1.2rem;
+}
+ul {
+    list-style-type: disc; /* Set the list style to disc, which creates bulleted lists */
+    list-style-position: outside;
+    padding-left: 1.5rem; 
+    width: 60vw;
+    font-size: 1.2rem;
+}
+a {
+    color: #809376;
+    font-size: 1.25rem;
+}
+.italic {
+    font-style: italic; /* Apply italic style to elements with the class "italic" */
 }
 img {
     max-width: 100%;
@@ -50,9 +67,8 @@ img {
     display: block;
     margin: 1rem auto;
 }
-ul {
-    list-style: none;
-    padding: 0;
+.screenshot {
+    width: 50vw;
 }
 li {
     margin-bottom: 0.5rem;
